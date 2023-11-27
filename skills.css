@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+nav h1{
+    color:rgb(10, 247, 10) ;
+  }
+  nav{
+  
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul li{
+  
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover{
+    color: rgb(10, 247, 10);
+  }
+  .container{
+    background: #eff4fd;
+    margin:10px;
+    width: 72%;
+    height: auto;
+    padding: 80px 13%;
+    overflow: none;
+    
+  }
+  .skillhead{
+    width: 100%;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  .skillhead h2{
+    margin-bottom: -5px;
+    padding: 10px;
+  }
+  .skillhead h2  span{
+    color: rgb(10, 247, 10);
+  }
+  .skillhead p{
+    font-size:larger;
+  }
+    .skillmain{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20%;
+    }
+    .skillbar{
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .sinfo{
+        font-size: 40px;
+margin-bottom: 10px;
+    }
+    .sbar{
+        width: 100%;
+        background: grey;
+        height: 40px;
+        border-radius: 100px;
+        position: absolute;
+        z-index: -1;
+    }
+    .sfill{
+        background: rgb(10, 247, 10);
+        height: 40px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30px;
+        overflow: hidden;
+    }
+    .skillperc{
+        font-size: 30px;
+
+    }
+    .html{
+        width: 90%;
+        
+    }
+    .css{
+        width: 90%;
+        
+    }
+    .js{
+        width: 60%;
+    }
+
